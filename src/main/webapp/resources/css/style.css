@@ -1,0 +1,166 @@
+* {
+    color: black;
+    /* text-align: center; */
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    padding: 30px;
+    text-align: left;
+
+}
+
+.page a {
+    margin-left: auto;
+}
+
+/* Главная страница 1 стр*/
+/* 1.Заголовок в таблице "Система управления студентами и их успеваемостью
+"  рамка*/
+.home th {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0px 100px;
+}
+
+/* 2.Студенты Дисциплины Семестры */
+.home-header {
+    padding: 40px;
+    text-align: center;
+}
+
+/* 3. Центрирование самих слов (Студенты --- Дисциплины --- Семестры)*/
+.home-header a + a {
+    margin-left: 170px;
+}
+
+/*4.таблица по центру */
+.home {
+    margin: auto;
+}
+
+/* 5.логин кнопка*/
+.header_login_button {
+    font-size: 10px;
+    height: 30px;
+    line-height: 10px;
+    margin-left: 1250px;
+}
+
+
+/* вторая cтраница студенты(меню)  2 стр*/
+.container {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    text-decoration: none;
+    font-size: 2px;
+    margin-left: 620px;
+}
+
+.student_list {
+    font-size: 11pt;
+    text-align: left;
+    bottom: auto;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+th {
+    background: darkgray;
+}
+
+.home th {
+    background: white;
+}
+
+.student_list th {
+    font-weight: bold;
+}
+
+.col1 {
+    width: 20px;
+
+}
+
+.col2 {
+    width: 190px;
+}
+
+.col3 {
+    width: 190px;
+}
+
+.col4 {
+    width: 100px;
+}
+
+.col5 {
+    width: 105px;
+}
+
+td {
+    background: rgb(228, 218, 218);
+}
+
+.colpr1 {
+    width: 200px;
+}
+
+.colpr2 {
+    width: 195px;
+}
+
+.colpr3 {
+    width: 105px;
+}
+
+.colpr4 {
+    width: 110px;
+}
+
+.student_list_discipline {
+    font-size: 11pt;
+    text-align: left;
+    bottom: auto;
+    border-collapse: collapse;
+    margin-left: 620px;
+
+}
+
+.coldis1 {
+    width: 250px;
+    height: 80px;
+    font-weight: bold;
+}
+
+.coldis2 {
+    width: 60px;
+    height: 80px;
+    font-weight: bold;
+}
+
+caption {
+    text-align: left;
+}
+
+.student_progress_terms {
+    padding-left:3px;
+       display: flex;
+}
+.student_progress_terms select{
+    width: 90px;
+    height: 30px;
+}
+
+.student_progress_discipline {
+    display: flex;
+
+}
